@@ -13,8 +13,8 @@
 # limitations under the License.
 
 python tools/train_net.py \
---train_data=/data/users/trandu/datasets/hmdb51_train01 \
---test_data=/data/users/trandu/datasets/hmdb51_test01 \
+--train_data=/home/jiashu/Documents/VMZ/data/hmdb51_train01 \
+--test_data=/home/jiashu/Documents/VMZ/data/hmdb51_test01 \
 --model_name=r2plus1d --model_depth=34 \
 --clip_length_rgb=32 --batch_size=4 \
 --pretrained_model=/mnt/homedir/trandu/video_models/kinetics/l32/r2.5d_d34_l32.pkl \

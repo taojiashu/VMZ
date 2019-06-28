@@ -13,9 +13,9 @@
 # limitations under the License.
 
 python data/create_video_db.py \
---list_file=data/list/hmdb51/hmdb51_test_01.csv \
---output_file=/data/users/trandu/datasets/hmdb51_test01
+--list_file=/home/jiashu/Documents/Datasets/list/hmdb51/hmdb51_test_01.csv \
+--output_file=/home/jiashu/Documents/VMZ/data/hmdb51_test01
 
 python data/create_video_db.py \
---list_file=data/list/hmdb51/hmdb51_train_01.csv \
---output_file=/data/users/trandu/datasets/hmdb51_train01
+--list_file=/home/jiashu/Documents/Datasets/list/hmdb51/hmdb51_train_01.csv \
+--output_file=/home/jiashu/Documents/VMZ/data/hmdb51_train01
